@@ -16,6 +16,7 @@
 **$================{DEFINE}=================$
 */
 # define LIBFT_H
+# define ABS(x) (((x) < 0) ? -(x) : (x))
 # define BUFF_SIZE 42
 # define X '\n'
 
@@ -43,6 +44,7 @@ char	*ft_strcpy(char *dest, const char *src);
 char	**ft_strsplit(char const *s, char c);
 char	*ft_strcat(char *s1, const char *s2);
 char	*ft_strrchr(const char *s, int c);
+void	ft_tab_del(char **tab, int size);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strdup(const char *src);
 char	*ft_strtrim(char const *s);
