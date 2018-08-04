@@ -74,5 +74,4 @@ char	*ft_strmap(char const *s, char (*f)(char));
 void	ft_striter(char *s, void (*f)(char *));
 int		ft_atoi(const char *tab);
 char	*ft_itoa(int n);
-
 #endif
